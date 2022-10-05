@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    list-style-type: none;
+    margin-left: 150px;
+}
+
+.item {
+    padding: 20px;
+}
+
+nav button{
+    background-color: transparent;
+    border-radius: 20px;
+    height: 45px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-color: blue;
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hosting-button{
+    background-color: blue;
+    border-radius: 5px;
+    height: 45px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hosting-details, .thorhosting, .Costing-details, .Indonesia-div{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.top-hosting-left, .Costing-right, .Indonesia-left{
+    margin: 40px;
+    margin-top: 100px;
+}
+
+.thorhosting-left, .thorhosting-right{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.thorhosting-right{
+    margin-top: 60px;
+}
+
+
+.services{
+    display: grid;
+    grid-template-rows: repeat(2,1fr) ;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    margin: 80px;
+}
+
+.Pricing{
+    background-color: #2196F3;
+    padding-bottom: 40px;
+}
+
+.Pricing-parent {
+    display: grid;
+    grid-template-rows: repeat(1,1fr) ;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    padding: 10px;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}
+p, h1, span{
+    font-family: 'Kanit', sans-serif;
+    /* font-size: 40px;    */
+}
+
+.Pricing-box{
+    padding-left: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;    
+    padding: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.Pricing-box button{
+    background-color: transparent;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    color: aliceblue;
+    border-color: blue;
+    color: blue;
+    font-weight: bold;   
+}
+
+.Pricing h2{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.customer-users{
+    display: grid;
+    grid-template-rows: repeat(2,1fr) ;
+    grid-template-columns: repeat(2,1fr);   
+    grid-gap: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 800px;
+    height: 400px;
+    
+}
+
+.customer-user {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.customer-user p {
+    color: grey;
+}
+
+.customer-user img {
+    height: 50px;
+    width: 50px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+.profile-details{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.customer-header{
+    text-align: center;
+}
+
+.customer-paragraph{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: grey;
+}
+
+
+.hosting-div{
+    margin-top: 100px;
+    background-color: #2196F3;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.hosting-header{
+    font-size: 50px;
+}
+
+.hosting-left{
+    margin-left: 200px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+}
+
+
+.hosting-right {
+    margin-top: 8%;
+    margin-right: 5%;
+}
+
+.footer {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    margin: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.footer-menu li{
+    list-style: none;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,91 @@
+@media screen and (max-width: 480px) {
+    html{
+        font-size: 80%;
+    }
+    nav li, nav button {
+      display: none;
+    }
+
+    .header-left img {
+        width: 96%;
+        height: 100%;
+    }
+   
+    .header-right {
+        width: 96%;
+    }
+   
+    .header-image{
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 20px;
+        width: 99%;
+    }
+    .header-right{
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 60px; 
+    }
+    .header-input{
+        margin-right: 80px;
+        width: inherit;
+    }
+
+    .header-input button{
+        margin-right: 10px;
+    }
+
+
+    .bussiness-div, .user-div{
+        margin: 0px;
+    }
+    h1 {
+        font-size: 40px !important;
+    }
+
+    .bussiness-follower, .user-details {
+        grid: none;
+        margin: 0px;
+    }
+    .bussiness-follower div{
+        padding: 20px;
+    }
+
+    .bussiness-div img, .bussiness-div h1{
+        margin: 10px !important;
+    }
+
+    .bussiness-div img{
+        height: 100%;
+        width: 93%;
+    }
+
+    .image img{
+        width: auto;
+        margin: 20px;
+    }
+    .text-details{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .user-basic-details{
+        margin: 0px;
+    }
+    .user-basic-details {
+        margin: 20px;
+    }
+    .users-basic-details, .footer-list-view{
+        grid: none;
+    }
+    .users-basic-image img{
+        width: 100%;
+        /* height: 100px; */
+    }
+
+    .list-item{
+        padding-bottom: 0px !important;
+    }
+
+  }

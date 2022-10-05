@@ -1,0 +1,67 @@
+.square {
+    background-image: url(Image.png);
+    position: absolute;
+}
+
+.image img {
+    width: 50%;
+    height: 50%;
+}
+
+.square img {
+    width: 70%;
+    height: 50%;
+    position: relative;
+    margin-top: 30%;
+    margin-left: 20%;
+    z-index: -1;
+}
+
+.left {
+    margin-left: 5%;
+    width: 50%;
+    float: left;
+}
+
+.right {
+    float: right;
+    width: 40%;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.list-item {
+    padding-left: 60px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.nav-button {
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.hero-heading {
+    font-size: 40px;
+}
+
+.button-email, .button-join{
+    border-radius: 10px;
+}

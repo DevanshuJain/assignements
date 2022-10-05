@@ -1,0 +1,166 @@
+
+@media only screen and (max-width: 1281px) {
+    html {
+        font-size: 180%;
+    }
+
+    .item{
+        padding: 10px;
+    }
+    .nav-items{
+        margin-left: 30px;
+    }
+    .Register-but{
+        margin-top: 36px;
+        font-size: 70%;
+        width: 180px;
+        height: 50px;
+    }
+    .hosting-button{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .Costing-left {
+        width: 200%;
+    }
+
+    .Costing-left img {
+        width: 100%;
+        height: 100%;
+    }
+    .Costing-right{
+        margin: 0px;
+    }
+    .Costing-right{
+        font-size: 90%;
+    }
+    .Indonesia-left{
+        margin-left: 20px;
+        margin-top: 0px;
+        font-size: 90%;
+    }
+
+    .Pricing-box {
+        height: auto;
+        width: auto;
+    }
+
+    .Pricing-parent{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .Pricing-box{
+        font-size: 80%;
+    }
+    .customer-users{
+        margin: 0px;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+.item, .Register-but {
+    display: none;
+    border: 2px solid red;
+ }
+
+html{
+    font-size: 100%;
+    margin-left: 10px;
+}
+
+nav img{
+    width: 32%;
+}
+
+.top-hosting-left, .hosting-paragraph, .hosting-button, .Costing-right, .Indonesia-left, .thorhosting-left, .thorhosting-right, .Pricing, .customer-header, .customer-paragraph, .customer-users {
+    margin: 0px;
+    margin-top: 5px
+}
+
+.hosting-right img, .Costing-left img, .Indonesia-div img {
+    width: 80%;
+}
+
+.services{
+    margin: 0px;
+}
+
+.hosting-right{
+    padding: 10px !important;
+}
+
+.Costing-details, .thorhosting, .hosting-details, .Indonesia-div{
+    flex-wrap: wrap !important;
+}
+
+.services, .Pricing-parent, .customer-users, .footer  {
+    grid-template-rows: none;
+    grid-template-columns: none;
+    
+}
+.customer-users{
+    height: auto;
+    width: auto;
+}
+
+.hosting-div{
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.Pricing-parent, .Indonesia-header{
+    margin-left: 0px;
+    margin-right: 10px !important;
+}
+
+h1{
+    font-size: 35px !important;
+}
+
+.hosting-left {
+    margin-left: auto;
+    padding : 10px;
+    margin-bottom: auto;
+    margin-right: 0px;
+}
+
+.Pricing-box{
+    height: auto;
+}
+.hosting-details{
+    margin-top: 20px;
+}
+
+.hosting-right{
+    margin-left: -113px;
+    text-align: center;
+}
+
+.footer{
+    margin-left: 0px;
+}
+
+.hosting-header, .hosting-paragraph, .hosting-right{
+    margin: 0px;
+}
+
+nav{
+    margin: 0px;
+}
+
+.three-lines{
+    display: block;
+}
+ 
+.three-lines{
+     width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+}
